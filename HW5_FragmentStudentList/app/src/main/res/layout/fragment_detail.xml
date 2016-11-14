@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="10dp"
+            android:text="Student Detail"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_name"
+        android:text="Name:"
+        android:layout_below="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_name_val"
+        android:text="Some Name"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_fat"
+        android:layout_below="@id/tv_name"
+        android:text="Father's Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_fat_val"
+        android:text="Some Name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_fat"
+        android:layout_below="@id/tv_name_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_contact"
+        android:layout_below="@id/tv_fat"
+        android:text="Contact No.:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_contact_val"
+        android:text="Number"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_contact"
+        android:layout_below="@id/tv_fat_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_email"
+        android:layout_below="@id/tv_contact"
+        android:text="Email Id:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_email_val"
+        android:text="Email id"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_email"
+        android:layout_below="@id/tv_contact_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_add"
+        android:layout_below="@id/tv_email"
+        android:text="Address:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_add_val"
+        android:text="Some Address"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_add"
+        android:layout_below="@id/tv_email_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_course"
+        android:layout_below="@id/tv_add"
+        android:text="Course:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tv_course_val"
+        android:text="Course Name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_course"
+        android:layout_below="@id/tv_add_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
