@@ -1,0 +1,140 @@
+TOTAL ASSIGNMENTS : 14
+
+
+
+
+----------------------LECTURE 1----------------------
+Class:
+1. 
+
+Assignments:
+1. 
+-----------------------------------------------------
+
+----------------------LECTURE 2----------------------
+Class:
+1. Sum of two numbers
+
+Assignments:
+1. Calculator
+-----------------------------------------------------
+
+----------------------LECTURE 3----------------------
+Class:
+1. Opening Activities using Intents
+2. Activity Lifecycles
+3. Layout Orientations (Qualifiers)
+
+Assignments:
+1. Open http://google.com, Dial Coding Blocks using intents
+2. Make app visible while sharing text/URLs in other apps using intent-filters
+-----------------------------------------------------
+
+----------------------LECTURE 4----------------------
+Class:
+1. Send and recieve data among activities/apps using intents
+2. Basics of ListViews
+
+Assignments:
+1. Coding Blocks Registration Form (Fill the form and display the data in other activity)
+-----------------------------------------------------
+
+----------------------LECTURE 5----------------------
+Class:
+1. More on ListViews
+2. ConvertViews and RecyclerViews
+
+Assignments:
+1. Improve Coding Blocks Registration Form using RecyclerViews (Display entries in form of list)
+-----------------------------------------------------
+
+----------------------LECTURE 6----------------------
+Class:
+1. Intro to Fragments and Views
+
+Assignments:
+1. Improve Coding Blocks Registration Form using Fragments (Make a list of entries and display all information side-by-side when clicked)
+-----------------------------------------------------
+
+----------------------LECTURE 7----------------------
+Class:
+1. AsyncTask
+2. Services
+
+Assignments:
+1. 
+-----------------------------------------------------
+
+----------------------LECTURE 8----------------------
+Class:
+1. BroadCast Recievers
+
+Assignments:
+1. Display a Toast and the value of current volume when changed by the user
+-----------------------------------------------------
+
+----------------------LECTURE 9----------------------
+Class:
+1. Intro to Files
+2. Settings and Preferences
+
+Assignments:
+1. Retain the information on-screen of an app even if the orientation is changed by the user
+2. Edit and Add into the Settings Activity and customise it
+------------------------------------------------------
+
+----------------------LECTURE 10----------------------
+Class:
+1. More on Files
+2. Call-backs using interfaces
+3. Fetching data from internet
+
+Assignments:
+1. Work out the logic for using CheckBoxes like RadioButtons in a RadioGroup (selecting one will deselect all the others)
+------------------------------------------------------
+
+----------------------LECTURE 11----------------------
+Class:
+1. Applying File Operations
+2. Applying Net Operations
+3. Intro to JSON
+
+Assignments:
+1. 
+------------------------------------------------------
+
+----------------------LECTURE 12----------------------
+Class:
+1. More on JSON
+2. Intro to Retrofit
+3. Intro to Rest APIs
+
+Assignments:
+1. Display all the events happening currently in form of list, which can be clicked to expand and show details
+------------------------------------------------------
+
+----------------------LECTURE 13----------------------
+Class:
+1. Asking Permissions from User in Run-time
+2. Permissions using "Nammu" library
+3. Intro to Sensors
+
+Assignments:
+1. Try to make a library like "Nammu" library
+------------------------------------------------------
+
+----------------------LECTURE 14----------------------
+Class:
+1. Making our Own Library (ask permission from the user in run-time)
+
+Assignments:
+1. Make library based on any action/operation (on any class)
+------------------------------------------------------
+
+----------------------LECTURE 15----------------------
+Class:
+1. Intro to Databases in Android
+
+Assignments:
+1. Improve ToDo List (Add Edit and Delete feature)
+------------------------------------------------------
